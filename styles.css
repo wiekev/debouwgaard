@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #D1E5CE;
+}
+
+img{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+header{
+    background-image: url(./afbeelingen/hout3.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    margin-bottom: 90px;
+}
+
+footer{
+    background-color: #859D7F;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav img{
+    width: 45px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-bottom: 0.5em;
+    padding: 0;
+}
+
+h1{
+   color: #A8CD7A; 
+   width: 375px;
+   text-align: center;
+   font-family: 'Patua One', serif;
+}
+
+h2{
+   margin: 1em;
+   color: #683D13;
+   font-family: "salsa";
+}
+
+h3{
+   margin: 1em;
+   color: #683D13;
+   font-family: "salsa";
+   font-size: 20px;
+}
+
+.kader{
+    border-color: black;
+    border-style: solid;
+    margin: 1em;
+    background-color: #9DBF93;
+}
+
+.inleiding{
+    color: #683D13;
+    text-align: center;
+    font-family: "salsa";
+    font-size: 23px;
+    margin-top: 0;
+}
+
+p{
+    margin: 1em;
+    font-size: large;
+    color: #153a31;
+    font-family: "salsa";
+}
+
+.foto-tekst{
+    margin-top: 7px;
+    display: flex;
+    align-content: center;
+}
+
+.foto-tekst img{
+    width: 50%;
+}
+
+.planning{
+    height: 55px;
+    width: 55px;
+}
+
+th, td{
+    border: 1px solid;
+    width: 30px;
+    text-align: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    font-family: "salsa";
+}
+
+th{
+    background-color: #949B91;
+}
+
+.date{
+    background-color: #9DBF93;
+}
