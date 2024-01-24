@@ -6,14 +6,6 @@ body{
     background-color: #D1E5CE;
 }
 
-img{
-    width: 350px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-}
-
 header{
     background-image: url(./afbeelingen/hout3.jpg);
     background-position: bottom;
@@ -26,7 +18,7 @@ header{
 }
 
 main{
-    margin-bottom: 90px;
+    margin-bottom: 110px;
 }
 
 footer{
@@ -49,8 +41,16 @@ nav ul{
     padding: 0;
 }
 
+img{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
 h1{
-   color: #A8CD7A; 
+   color: #F5B5D2; 
    width: 375px;
    text-align: center;
    font-family: 'Patua One', serif;
@@ -67,6 +67,10 @@ h3{
    color: #683D13;
    font-family: "salsa";
    font-size: 20px;
+}
+
+.logo{
+    width: 200px;
 }
 
 .kader{
